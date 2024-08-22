@@ -51,6 +51,9 @@ print(myArrays[2])
 // Uncommenting below will cause an error because the index is out of bounds
 // print(myArrays[3])
 
+// Modifying an array element
+myArrays[0] = "item0"
+
 // Dictionary declaration
 var myDict = [
     "key0": "value0",
@@ -58,11 +61,9 @@ var myDict = [
     "key2": "value2",
 ]
 
-// Modifying an array element
-myArrays[0] = "item0"
 
 // Forced unwrapping of an optional value (unsafe if nil)
-print(myDict["key1"]!)
+print(myDict["key1"])
 
 // Uncommenting below will cause a runtime error due to forced unwrapping of nil
 // print(myDict["key3"]!)
