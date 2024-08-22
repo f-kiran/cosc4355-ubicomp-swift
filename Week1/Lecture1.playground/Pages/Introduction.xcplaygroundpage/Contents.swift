@@ -12,13 +12,14 @@
  
 #### Required Software
 - [macOS Sonoma](https://developer.apple.com/documentation/macos-release-notes/macos-14_6-release-notes) 14.6.1 and higher
-- [XCode 15.4](https://developer.apple.com/documentation/Xcode-Release-Notes/xcode-15_4-release-notes) and higher
+- [XCode 15.4](https://developer.apple.com/support/xcode/) and higher
 
 > To see the current Sofware versions, run on therminal:
  
- - `sw_vers -productVersion`
+ - MacOS: `sw_vers -productVersion`
  
- - `system_profiler SPDeveloperToolsDataType`
+ - Xcode: `system_profiler SPDeveloperToolsDataType`
+ - Swift: `swift --version`
 
 
  ---
@@ -46,8 +47,8 @@
 ### Resources used:
 - [Swift Documentation](https://docs.swift.org/swift-book/documentation/the-swift-programming-language)
 - [Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-- [GuidedTour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
-- [enumerations](https://www.hackingwithswift.com/read/0/14/enumerations)
+- [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
+- [Enumerations](https://www.hackingwithswift.com/read/0/14/enumerations)
  
  
  
