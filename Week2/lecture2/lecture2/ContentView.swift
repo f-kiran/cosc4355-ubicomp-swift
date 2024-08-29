@@ -16,7 +16,7 @@ struct ContentView: View {
         "weather_4"
     ]
     @State private var seasonIdx = 0
-    @State private var seasonInput = ""
+//    @State private var seasonInput = ""
     @State private var showingActionSheet = false
 //    @State private var showingAlert = false
     
@@ -86,10 +86,10 @@ struct ContentView: View {
     
     
     func showNextSeasonWeather(){
-        if seasonInput.isEmpty {
+//        if seasonInput.isEmpty {
             seasonIdx = (seasonIdx + 1) % seasonImages.count
 //            showingAlert = true
-        }
+//        }
     }
     
     func createActionSheetButtons() -> [ActionSheet.Button] {

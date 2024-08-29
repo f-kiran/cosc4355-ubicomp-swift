@@ -21,12 +21,17 @@ struct SplashScreenView: View {
             ContentView()
         } else {
             VStack {
+                Spacer()
                 Text("""
-                     Hi, there!
+                     Hi, UbiComp F2024!
                      """
                 ).font(.largeTitle)
                 
-        
+                Image(systemName: "applelogo")
+                    .resizable()
+                    .frame(width: 200, height: 300)
+                    .padding()
+                Spacer()
             }
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
@@ -37,4 +42,8 @@ struct SplashScreenView: View {
             }
         }
     }
+}
+
+#Preview {
+    SplashScreenView()
 }
