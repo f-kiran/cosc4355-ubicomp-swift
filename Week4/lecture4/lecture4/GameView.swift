@@ -22,7 +22,7 @@ struct GameView: View {
     
     var body: some View {
         VStack{
-            Spacer()
+//            Spacer()
             Text("Card Game")
                 .font(.title)
                 .fontWeight(.bold)
@@ -39,13 +39,14 @@ struct GameView: View {
                     Image(img2)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                }                .background(.green)
-                                .scaledToFit()
+                }.padding()
+                .shadow(radius: 5)
+                .background(.green)
+                .scaledToFit()
                     .cornerRadius(10)
                 
             } else {
-                HStack {
-                   
+                HStack (spacing: 100){
                         Image(img1)
                             .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -57,12 +58,12 @@ struct GameView: View {
                     
                 
                 }
+                .padding(20)
                 .background(.green)
+                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 .scaledToFit()
                 .cornerRadius(10)
 
-                
-                
             }
             
             Button(action: {
@@ -71,14 +72,12 @@ struct GameView: View {
             }, label: {
                 Text("Shuffle")
                     .font(.title2)
-                    .frame(minWidth: 150,minHeight: 10)
+                    .frame(minWidth: 150,minHeight: 10, maxHeight: 10)
                     .padding()
                     .background(.orange)
                     .foregroundColor(.white)
                     .cornerRadius(10)
-            })
-            
-            Spacer()
+            }).padding(.horizontal)
             
         }
         .tabItem {
