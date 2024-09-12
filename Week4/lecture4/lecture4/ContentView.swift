@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @State private var totalSameCards = 0
     @State private var totalDiffCards = 0
-    
+
     var body: some View {
         VStack {
             

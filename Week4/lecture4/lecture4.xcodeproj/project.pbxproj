@@ -11,9 +11,8 @@
 		F60833232C9229C200B5678B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60833222C9229C200B5678B /* ContentView.swift */; };
 		F60833252C9229C300B5678B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60833242C9229C300B5678B /* Assets.xcassets */; };
 		F60833282C9229C300B5678B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60833272C9229C300B5678B /* Preview Assets.xcassets */; };
-		F608332F2C922A0200B5678B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F608332E2C922A0200B5678B /* GameView.swift */; };
 		F60833312C922A1600B5678B /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60833302C922A1600B5678B /* StatView.swift */; };
-		F60833332C9233A900B5678B /* GameView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60833322C9233A900B5678B /* GameView2.swift */; };
+		F60833332C9233A900B5678B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60833322C9233A900B5678B /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +21,8 @@
 		F60833222C9229C200B5678B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F60833242C9229C300B5678B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60833272C9229C300B5678B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F608332E2C922A0200B5678B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		F60833302C922A1600B5678B /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
-		F60833322C9233A900B5678B /* GameView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView2.swift; sourceTree = "<group>"; };
+		F60833322C9233A900B5678B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +57,7 @@
 			children = (
 				F60833202C9229C200B5678B /* lecture4App.swift */,
 				F60833222C9229C200B5678B /* ContentView.swift */,
-				F608332E2C922A0200B5678B /* GameView.swift */,
-				F60833322C9233A900B5678B /* GameView2.swift */,
+				F60833322C9233A900B5678B /* GameView.swift */,
 				F60833302C922A1600B5678B /* StatView.swift */,
 				F60833242C9229C300B5678B /* Assets.xcassets */,
 				F60833262C9229C300B5678B /* Preview Content */,
@@ -147,9 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60833312C922A1600B5678B /* StatView.swift in Sources */,
-				F60833332C9233A900B5678B /* GameView2.swift in Sources */,
+				F60833332C9233A900B5678B /* GameView.swift in Sources */,
 				F60833232C9229C200B5678B /* ContentView.swift in Sources */,
-				F608332F2C922A0200B5678B /* GameView.swift in Sources */,
 				F60833212C9229C200B5678B /* lecture4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
