@@ -28,6 +28,7 @@ struct ContentView: View {
         VStack {
             Text("Programming Languages").font(.title).bold()
             NavigationView {
+//                List(1...10, id: \.self) {_ in
                 List(languages, id: \.id) { Language in
                     HStack {
                         Section(header: Text("")) {
@@ -39,23 +40,22 @@ struct ContentView: View {
                                             .frame(maxWidth: 80, maxHeight: 80)
                                             .clipShape(Circle())
                                         
-                                    } placeholder: {
+                                    }
+                                    placeholder: {
                                         ProgressView()
                                     }
-                                    
                                     Spacer()
-                                    
                                     VStack {
                                         Spacer()
                                         Text(Language.name)
                                             .font(.system(size: 25))
                                             .bold()
-                                            .foregroundColor(CustomColor.DarkBlue)
+                                            .foregroundColor(.darkBlue)
                                         Spacer()
                                         
                                         Text("Est. " + String(Language.first_appeared))
                                             .font(.system(size: 12))
-                                            .foregroundColor(CustomColor.LightBlue)
+                                            .foregroundColor(.lightBlue)
                                         Spacer()
                                     }
                                     .multilineTextAlignment(.trailing)
@@ -69,7 +69,7 @@ struct ContentView: View {
                
                 }
                 .padding(5)
-                    .colorMultiply(CustomColor.PinkBackground)
+                .colorMultiply(.pinkBackground)
                     .task {
                         await loadData()
                     }
@@ -81,7 +81,7 @@ struct ContentView: View {
     
     func loadData() async {
         
-        guard let url = URL(string:"https://m.cpl.uh.edu/courses/ubicomp/fall2022/webservice/languages/languages_id.json"
+        guard let url = URL(string:"http://m.cpl.uh.edu/courses/ubicomp/fall2022/webservice/languages/languages_id.json"
         )
         else {
             print("Invalid URL")

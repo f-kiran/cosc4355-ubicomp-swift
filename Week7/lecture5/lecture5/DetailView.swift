@@ -33,3 +33,8 @@ struct DetailView: View {
         .background(CustomColor.PinkBackground)
     }
 }
+
+
+#Preview {
+    DetailView(about: "Hello Swift", img_logo: URL(string: "http://m.cpl.uh.edu/courses/ubicomp/fall2022/webservice/languages/swift.png")!)
+}
