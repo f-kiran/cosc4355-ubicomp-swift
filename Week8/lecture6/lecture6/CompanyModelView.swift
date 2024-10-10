@@ -4,7 +4,7 @@
 //
 //  Created by Fettah KIRAN on 10/9/24.
 //
-// Company Model
+// 1
 
 import Foundation
 import CoreLocation
@@ -25,7 +25,6 @@ struct Company: Codable, Identifiable {
     private enum CodingKeys: String, CodingKey {
         case company, hq_longitude, hq_latitude
     }
-    
 
 }
 

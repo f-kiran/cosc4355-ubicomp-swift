@@ -3,7 +3,7 @@
 //  lecture6
 //
 //  Created by Fettah KIRAN on 10/9/24.
-//
+//2
 
 
 import SwiftUI

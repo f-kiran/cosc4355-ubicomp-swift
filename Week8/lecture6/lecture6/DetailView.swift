@@ -3,7 +3,7 @@
 //  lecture6
 //
 //  Created by Fettah KIRAN on 10/9/24.
-//
+// 4
 
 import SwiftUI
 import MapKit
@@ -43,6 +43,8 @@ struct DetailView: View {
     
     var body: some View {
         VStack(spacing: 20) {
+            
+//         // Testing Map before MapView Implementation
 //            Text("Company: \(company.company)")
 //                .font(.largeTitle)
 //                .padding()

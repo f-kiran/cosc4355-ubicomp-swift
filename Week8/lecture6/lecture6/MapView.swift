@@ -3,7 +3,7 @@
 //  lecture6
 //
 //  Created by Fettah KIRAN on 10/9/24.
-//
+//5
 
 
 import SwiftUI
@@ -49,7 +49,7 @@ struct MapView: UIViewRepresentable {
         init(_ parent: MapView) {
             self.parent = parent
         }
-        
+        // longPressGesture helper
         @objc func longPressGesture(recognizer: UILongPressGestureRecognizer) {
             if recognizer.state == .began {
                 let touchPoint = recognizer.location(in: recognizer.view)
